@@ -5,6 +5,7 @@
 const routes = require('./src/routes');
 
 export default {
+	base: '/umi-todolist',
 	history: 'hash',
 	treeShaking: true,
 	routes,
