@@ -6,9 +6,9 @@
 }
 
 .welcome {
-  height: 512px;
+  height: 200px;
   background: url(../assets/yay.jpg) no-repeat center 0;
-  background-size: 512px 512px;
+  background-size: contain;
 }
 
 .list {
