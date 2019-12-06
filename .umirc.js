@@ -5,6 +5,7 @@
 const routes = require('./src/routes');
 
 export default {
+	history: 'hash',
 	treeShaking: true,
 	routes,
 	plugins: [
