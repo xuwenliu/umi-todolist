@@ -5,7 +5,7 @@ umi + dva todolist
 # 创建项目
   [创建 umi 项目](https://umijs.org/zh/guide/create-umi-app.html#%E4%BB%8B%E7%BB%8D-create-umi)
 
-  ![目录结构](../src/assets/目录.jpg)
+  ![目录结构](./src/assets/目录.jpg)
 
 # 项目启动和部署github
 
