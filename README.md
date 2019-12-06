@@ -24,6 +24,15 @@ umi + dva todolist
   ```
 - 4.npm run build
 - 5.npm run deploy
+- 6.由于umi的默认配置是部署到根目录 参看 [部署](https://umijs.org/zh/guide/deploy.html)
+  而我们部署到https://xuwenliu.github.io/umi-todolist 这个地址 后面多了 /umi-todolist
+  所以需要 额外在.umirc.js里面配置:
+```
+  base: '/umi-todolist',
+	publicPath: '/umi-todolist/', //后面的斜杠必写
+	history: 'hash',
+```
+
 
 # 使用插件
 - [dva-logger](https://github.com/afc163/dva-logger) 
