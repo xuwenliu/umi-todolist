@@ -1,0 +1,14 @@
+import styles from './index.css';
+import withRouter from 'umi/withRouter';
+import { connect } from 'dva';
+
+function BasicLayout(props) {
+  return (
+    <div className={styles.normal}>
+      <h1 className={styles.title}>Yay! Welcome to umi!</h1>
+      {props.children}
+    </div>
+  );
+}
+
+export default withRouter(connect()(BasicLayout));
